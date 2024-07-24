@@ -1,6 +1,6 @@
 ---
 name: Feature request
-about: Suggest an idea for this project
+about: 기능 요청 이슈 작성 시 사용하는 템플릿입니다.
 title: ''
 labels: ''
 assignees: ''
