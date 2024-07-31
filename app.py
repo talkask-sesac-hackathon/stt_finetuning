@@ -2,6 +2,7 @@ import streamlit as st
 import openai
 import os
 from dotenv import load_dotenv
+from streamlit_chat import message
 
 # .env 파일에서 환경 변수 로드
 load_dotenv()
@@ -10,8 +11,9 @@ load_dotenv()
 openai.api_key = os.getenv('OPENAI_API_KEY')
 
 # 챗봇 응답 생성 함수
+
 def chatbot_response(user_input, chat_history):
-    messages = [{"role": "system", "content": "You are a helpful assistant."}]
+    messages = [{"role": "system", "content": "너는 카페에서 고객의 주문을 도와주는 챗봇이야. 최대한 친절하게 주문을 받아줘."}]
     for entry in chat_history:
         messages.append({"role": "user", "content": entry["user"]})
         messages.append({"role": "assistant", "content": entry["bot"]})
@@ -28,10 +30,10 @@ def chatbot_response(user_input, chat_history):
 # Streamlit 애플리케이션 설정
 st.set_page_config(page_title="Chatbot Interface", layout="wide")
 
-st.title("Image and Chatbot Interface")
+st.title("TalkASK 📢 ")
 
 if "chat_history" not in st.session_state:
-    st.session_state.chat_history = []
+    st.session_state.chat_history = [{"user":'', "bot": "어서오세요. TalkAsk입니다 😊 무엇을 도와드릴까요? "}]
 
 if "filtered_images" not in st.session_state:
     st.session_state.filtered_images = []
@@ -69,25 +71,41 @@ def handle_input():
         # 입력 필드 초기화
         st.session_state.user_input = ""
 
-# 사이드바에 채팅 인터페이스 추가
-st.sidebar.title("Chatbot Interface")
+# 두 개의 열 생성
+col1, col2 = st.columns([1, 3])
 
-# 채팅 입력
-st.sidebar.text_input("메시지를 입력하세요:", key="user_input", on_change=handle_input)
+with col1:
+    
+    st.markdown("<h3 style='text-align: center;'>Talk Ask Chatbot🤖 </h3>", unsafe_allow_html=True)
+    # 채팅 입력
+    st.text_input("메시지를 입력하세요:", key="user_input", on_change=handle_input)
 
-# 채팅 내역 표시
-for entry in st.session_state.chat_history:
-    st.sidebar.markdown(f"<div class='user-message'>사용자: {entry['user']}</div>", unsafe_allow_html=True)
-    st.sidebar.markdown(f"<div class='chatbot-message'>챗봇: {entry['bot']}</div>", unsafe_allow_html=True)
+    # 채팅 내역 표시
+    for i, entry in enumerate(st.session_state.chat_history):
+        if entry['user']:  # 사용자 메시지가 비어있지 않은 경우에만 표시
+            message(entry['user'], is_user=True, key=f"user_{i}")
+        message(entry['bot'], key=f"bot_{i}")
 
-# 메인 영역에 필터링된 이미지 표시
-st.title("Filtered Images")
-for image_path in st.session_state.filtered_images:
-    st.image(image_path, use_column_width=True)
+
+with col2:
+    st.title("메뉴판")
+    # 필터링된 이미지 표시
+    for image_path in st.session_state.filtered_images:
+        st.image(image_path, use_column_width=True)
 
 # 스타일 적용
 st.markdown("""
 <style>
+    .chat-container {
+        background-color: #DFF0D8; /* 채팅 컨테이너 배경색 */
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .image-container {
+        background-color: #FFFFFF; /* 이미지 컨테이너 배경색 */
+        padding: 10px;
+        border-radius: 10px;
+    }
     .user-message {
         background-color: #dcf8c6;
         padding: 10px;
@@ -106,9 +124,21 @@ st.markdown("""
         width: 100%;
         height: auto;
     }
-    /* 사이드바 너비 조정 */
-    .css-1d391kg {
-        width: 350px; /* 원하는 너비로 조정 */
+    .stTextInput>div>input {
+        width: 100%;
+    }
+    .stButton>button {
+        width: 100%;
+    }
+    .stColumn:nth-child(1) {
+        background-color: #DFF0D8; /* 첫 번째 컬럼 배경색 */
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .stColumn:nth-child(2) {
+        background-color: #FFFFFF; /* 두 번째 컬럼 배경색 */
+        padding: 10px;
+        border-radius: 10px;
     }
 </style>
 """, unsafe_allow_html=True)
