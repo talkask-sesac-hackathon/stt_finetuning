@@ -1,0 +1,12 @@
+[
+    {
+        "name": "아메리카노",
+        "category": "커피",
+        "description": "가장 인기있고 기본적인 블랙 커피",
+        "pricing": {
+            "L": 3200,
+            "EX": 4200
+        },
+        "is_popular": true
+    }
+]
