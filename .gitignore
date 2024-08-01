@@ -1,8 +1,10 @@
+# test
+*test*
+
 # Vector DB
 *.bin
 
 # Data set
-*.txt
 *.mp3
 # *dataset*
 *maxseats__*
