@@ -1,12 +1,96 @@
 [
     {
-        "name": "아메리카노",
+        "name": "HOT 아메리카노",
         "category": "커피",
-        "description": "가장 인기있고 기본적인 블랙 커피",
+        "description": "가장 인기있고 기본적인 따뜻한 블랙 커피",
         "pricing": {
             "L": 3200,
             "EX": 4200
         },
-        "is_popular": true
+        "is_popular": true,
+        "has_caffeine": true,
+        "temperature": "hot"
+    },
+    {
+        "name": "ICED 아메리카노",
+        "category": "커피",
+        "description": "가장 인기있고 기본적인 시원한 블랙 커피",
+        "pricing": {
+            "L": 3200,
+            "EX": 4200
+        },
+        "is_popular": true,
+        "has_caffeine": true,
+        "temperature": "iced"
+    },
+    {
+        "name": "ICED 디카페인 아메리카노",
+        "category": "커피",
+        "description": "카페인이 없어 밤에도 즐길수 있고 기본적인 시원한 블랙 커피",
+        "pricing": {
+            "L": 3500,
+            "EX": 4500
+        },
+        "is_popular": true,
+        "has_caffeine": false,
+        "temperature": "iced"
+    },
+    {
+        "name": "HOT 디카페인 아메리카노",
+        "category": "커피",
+        "description": "카페인이 없어 밤에도 즐길수 있고 기본적인 따뜻한 블랙 커피",
+        "pricing": {
+            "L": 3500,
+            "EX": 4500
+        },
+        "is_popular": true,
+        "has_caffeine": false,
+        "temperature": "hot"
+    },
+    {
+        "name": "HOT 카페라떼",
+        "category": "커피",
+        "description": "에스프레소와 스팀밀크가 만나 고소하고 따뜻한 커피",
+        "pricing": {
+            "L": 3500,
+            "EX": 4500
+        },
+        "is_popular": true,
+        "has_caffeine": true,
+        "temperature": "hot"
+    },
+    {
+        "name": "ICED 카페라떼",
+        "category": "커피",
+        "description": "에스프레소와 스팀밀크가 만나 고소하고 시원한 커피",
+        "pricing": {
+            "L": 3500,
+            "EX": 4500
+        },
+        "is_popular": true,
+        "has_caffeine": true,
+        "temperature": "iced"
+    },
+    {
+        "name": "티라미수 케이크",
+        "category": "디저트",
+        "description": "부드럽고 달콤한 티라미수 케이크, 커피랑 곁들이기 좋습니다.",
+        "pricing": {
+            "": 4500
+        },
+        "is_popular": true,
+        "has_caffeine": true,
+        "temperature": null
+    },
+    {
+        "name": "민트초코 케이크",
+        "category": "디저트",
+        "description": "상큼하고 달콤한 민트초코 케이크, 호불호 갈릴수 있습니다.",
+        "pricing": {
+            "": 4500
+        },
+        "is_popular": false,
+        "has_caffeine": false,
+        "temperature": null
     }
 ]
