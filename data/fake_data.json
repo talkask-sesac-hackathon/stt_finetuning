@@ -80,7 +80,7 @@
         },
         "is_popular": true,
         "has_caffeine": true,
-        "temperature": null
+        "temperature": "none"
     },
     {
         "name": "민트초코 케이크",
@@ -91,6 +91,6 @@
         },
         "is_popular": false,
         "has_caffeine": false,
-        "temperature": null
+        "temperature": "none"
     }
 ]
