@@ -1,14 +1,18 @@
 import streamlit as st
-import openai
+from langchain_openai import OpenAI
 import os
 from dotenv import load_dotenv
+from stt.whisper import whisper_transcribe_from_file
+import wave
+import io
+from st_audiorec import st_audiorec
 from streamlit_chat import message
-
+    
 # .env 파일에서 환경 변수 로드
-load_dotenv()
+load_dotenv(override=True)
 
 # OpenAI API 키 설정
-openai.api_key = os.getenv('OPENAI_API_KEY')
+llm = OpenAI()
 
 # 챗봇 응답 생성 함수
 
@@ -20,12 +24,9 @@ def chatbot_response(user_input, chat_history):
 
     messages.append({"role": "user", "content": user_input})
 
-    response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
-        messages=messages
-    )
+    response = llm.invoke(user_input)
 
-    return response['choices'][0]['message']['content'].strip()
+    return response
 
 # Streamlit 애플리케이션 설정
 st.set_page_config(page_title="Chatbot Interface", layout="wide")
@@ -46,8 +47,8 @@ image_data = {
 }
 
 # 사용자 입력 처리 콜백 함수
-def handle_input():
-    user_input = st.session_state.user_input
+def handle_input(input):
+    user_input = input
     if user_input:
         # 사용자 메시지 추가
         st.session_state.chat_history.append({"user": user_input, "bot": ""})
@@ -78,7 +79,37 @@ with col1:
     
     st.markdown("<h3 style='text-align: center;'>Talk Ask Chatbot🤖 </h3>", unsafe_allow_html=True)
     # 채팅 입력
-    st.text_input("메시지를 입력하세요:", key="user_input", on_change=handle_input)
+    st.session_state.user_input = st_audiorec()
+    
+    def get_wav_info(byte_data):
+        """
+        WAV 바이트 데이터에서 오디오 정보를 추출합니다.
+        """
+        with io.BytesIO(byte_data) as wav_buffer:
+            with wave.open(wav_buffer, 'rb') as wav_file:
+                channels = wav_file.getnchannels()
+                sample_width = wav_file.getsampwidth()
+                frame_rate = wav_file.getframerate()
+                frames = wav_file.readframes(wav_file.getnframes())
+        return channels, sample_width, frame_rate, frames
+
+    # byte 파일 -> wav 파일로 변환
+    def bytes_to_wav(byte_data, output_filename):
+        """
+        바이트 데이터를 WAV 파일로 변환합니다.
+        """
+        channels, sample_width, frame_rate, frames = get_wav_info(byte_data)
+        
+        with wave.open(output_filename, 'wb') as wav_file:
+            wav_file.setnchannels(channels)
+            wav_file.setsampwidth(sample_width)
+            wav_file.setframerate(frame_rate)
+            wav_file.writeframes(frames)
+
+    # wav 파일 저장 후 STT 실행하기
+    if st.button("채팅 보내기", key = 'ss'):
+        bytes_to_wav(st.session_state.user_input, 'output.wav')
+        handle_input(whisper_transcribe_from_file('output.wav', '숫자세기'))
 
     # 채팅 내역 표시
     for i, entry in enumerate(st.session_state.chat_history):
