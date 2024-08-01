@@ -658,7 +658,7 @@
     },
     {
         "name": "소금 버터 스콘",
-        "description": "버터풍미가 가득 느껴지는 고소하고 짭짤한 소금 버터 스콘（딸기잼과 함께 제공됩니다.）",
+        "description": "버터풍미가 가득 느껴지는 고소하고 짭짤한 소금 버터 스콘(딸기잼과 함께 제공됩니다.)",
         "category": "베이커리",
         "is_popular": false,
         "temperature": "none",
@@ -1337,7 +1337,7 @@
     },
     {
         "name": "HOT 그린루이보스",
-        "description": "복숭아 한 조각을 베어 문 잔향이 입안에 남는 맑은 수색의 루이보스 티（카페인 無）",
+        "description": "복숭아 한 조각을 베어 문 잔향이 입안에 남는 맑은 수색의 루이보스 티(카페인 없음)",
         "category": "블렌딩티",
         "is_popular": false,
         "temperature": "hot",
@@ -1349,7 +1349,7 @@
     },
     {
         "name": "ICED 그린루이보스",
-        "description": "복숭아 한 조각을 베어 문 잔향이 입안에 남는 맑은 수색의 루이보스 티（카페인 無）",
+        "description": "복숭아 한 조각을 베어 문 잔향이 입안에 남는 맑은 수색의 루이보스 티(카페인 없음)",
         "category": "블렌딩티",
         "is_popular": false,
         "temperature": "iced",
@@ -1361,7 +1361,7 @@
     },
     {
         "name": "HOT 샤인히비스커스",
-        "description": "사과, 오렌지, 패션후르츠 등이 블렌딩 된 과일향 가득한 새콤달콤한 맛의 허브티（카페인 無）",
+        "description": "사과, 오렌지, 패션후르츠 등이 블렌딩 된 과일향 가득한 새콤달콤한 맛의 허브티(카페인 없음)",
         "category": "블렌딩티",
         "is_popular": false,
         "temperature": "hot",
@@ -1373,7 +1373,7 @@
     },
     {
         "name": "ICED 샤인히비스커스",
-        "description": "사과, 오렌지, 패션후르츠 등이 블렌딩 된 과일향 가득한 새콤달콤한 맛의 허브티（카페인 無）",
+        "description": "사과, 오렌지, 패션후르츠 등이 블렌딩 된 과일향 가득한 새콤달콤한 맛의 허브티(카페인 없음)",
         "category": "블렌딩티",
         "is_popular": false,
         "temperature": "iced",
@@ -1385,7 +1385,7 @@
     },
     {
         "name": "HOT 스프링캐모마일",
-        "description": "캐모마일과 루이보스, 레몬그라스 등이 블렌딩 되어 은은함이 돋보이는 허브티（카페인 無）",
+        "description": "캐모마일과 루이보스, 레몬그라스 등이 블렌딩 되어 은은함이 돋보이는 허브티(카페인 없음)",
         "category": "블렌딩티",
         "is_popular": false,
         "temperature": "hot",
@@ -1397,7 +1397,7 @@
     },
     {
         "name": "ICED 스프링캐모마일",
-        "description": "캐모마일과 루이보스, 레몬그라스 등이 블렌딩 되어 은은함이 돋보이는 허브티（카페인 無）",
+        "description": "캐모마일과 루이보스, 레몬그라스 등이 블렌딩 되어 은은함이 돋보이는 허브티(카페인 없음)",
         "category": "블렌딩티",
         "is_popular": false,
         "temperature": "iced",
@@ -1409,7 +1409,7 @@
     },
     {
         "name": "HOT 퓨어페퍼민트",
-        "description": "입 안 가득 청량함이 느껴지는 상쾌한 허브티（카페인 無）",
+        "description": "입 안 가득 청량함이 느껴지는 상쾌한 허브티(카페인 없음)",
         "category": "블렌딩티",
         "is_popular": false,
         "temperature": "hot",
@@ -1421,7 +1421,7 @@
     },
     {
         "name": "ICED 퓨어페퍼민트",
-        "description": "입 안 가득 청량함이 느껴지는 상쾌한 허브티（카페인 無）",
+        "description": "입 안 가득 청량함이 느껴지는 상쾌한 허브티(카페인 없음)",
         "category": "블렌딩티",
         "is_popular": false,
         "temperature": "iced",
@@ -1433,7 +1433,7 @@
     },
     {
         "name": "HOT 피치얼그레이",
-        "description": "깊고 그윽한 홍차와 달콤한 복숭아 향이 어우러지는 깔끔한 맛의 얼그레이 티（카페인 有）",
+        "description": "깊고 그윽한 홍차와 달콤한 복숭아 향이 어우러지는 깔끔한 맛의 얼그레이 티(카페인 有)",
         "category": "블렌딩티",
         "is_popular": false,
         "temperature": "hot",
@@ -1445,7 +1445,7 @@
     },
     {
         "name": "ICED 피치얼그레이",
-        "description": "깊고 그윽한 홍차와 달콤한 복숭아 향이 어우러지는 깔끔한 맛의 얼그레이 티（카페인 有）",
+        "description": "깊고 그윽한 홍차와 달콤한 복숭아 향이 어우러지는 깔끔한 맛의 얼그레이 티(카페인 有)",
         "category": "블렌딩티",
         "is_popular": false,
         "temperature": "iced",
@@ -1567,7 +1567,7 @@
     },
     {
         "name": "HOT 유자차",
-        "description": "(Only HOT)유자 과육이 풍부한 홈메이드 방식의 달콤한 과일차（국내산 고흥유자 사용）",
+        "description": "(Only HOT)유자 과육이 풍부한 홈메이드 방식의 달콤한 과일차(국내산 고흥유자 사용)",
         "category": "블렌딩티",
         "is_popular": false,
         "temperature": "hot",
@@ -1748,7 +1748,7 @@
     },
     {
         "name": "이디야 감귤&한라봉 주스",
-        "description": "감귤의 상큼함에 싱그러운 한라봉의 진한 향이 기분 좋게 느껴지는 착즙주스（245ml）",
+        "description": "감귤의 상큼함에 싱그러운 한라봉의 진한 향이 기분 좋게 느껴지는 착즙주스(245ml)",
         "category": "병 음료",
         "is_popular": false,
         "temperature": "iced",
@@ -1759,7 +1759,7 @@
     },
     {
         "name": "이디야 청포도&케일 주스",
-        "description": "풍부한 영양성분을 함유한 케일에 달콤한 청포도를 더해 맛있게 먹을 수 있는 건강 착즙주스（245ml）",
+        "description": "풍부한 영양성분을 함유한 케일에 달콤한 청포도를 더해 맛있게 먹을 수 있는 건강 착즙주스(245ml)",
         "category": "병 음료",
         "is_popular": false,
         "temperature": "iced",
@@ -1770,7 +1770,7 @@
     },
     {
         "name": "이디야 사과&당근 주스",
-        "description": "은은한 당근 향과 달콤한 사과의 맛이 완벽하게 어우러진 착즙주스（245ml）",
+        "description": "은은한 당근 향과 달콤한 사과의 맛이 완벽하게 어우러진 착즙주스(245ml)",
         "category": "병 음료",
         "is_popular": false,
         "temperature": "iced",
@@ -1836,7 +1836,7 @@
     },
     {
         "name": "이디야 단백질바 초코쿠키",
-        "description": "고함량 단백질（13g）과 함께 달콤한 초콜릿 코팅과, 쿠키분태 오곡초코볼, 크리스피볼, 시리얼 등 재미있는 식감을 느낄 수 있는 달콤바삭한 초코바",
+        "description": "고함량 단백질(13g)과 함께 달콤한 초콜릿 코팅과, 쿠키분태 오곡초코볼, 크리스피볼, 시리얼 등 재미있는 식감을 느낄 수 있는 달콤바삭한 초코바",
         "category": "스낵",
         "is_popular": false,
         "temperature": "none",
@@ -1847,7 +1847,7 @@
     },
     {
         "name": "이디야 비타민바 그릭요거트",
-        "description": "비타민C 일일권장량（100mg）과 식이섬유（3g）가 들어있고 동결건조과일 3종의 달콤함과 그릭요거트의 상큼함이 있는 기분 좋은 새콤고소한 스낵바",
+        "description": "비타민C 일일권장량(100mg)과 식이섬유(3g)가 들어있고 동결건조과일 3종의 달콤함과 그릭요거트의 상큼함이 있는 기분 좋은 새콤고소한 스낵바",
         "category": "스낵",
         "is_popular": false,
         "temperature": "none",
@@ -1891,7 +1891,7 @@
     },
     {
         "name": "스페셜 모카블렌드",
-        "description": "이디야만의 차별화된 추출공법과 커피, 크림, 설탕의 최적화된 비율로 깊고 진한 커피향미와 부드럽고 달콤한 느낄 수 있는 커피믹스（30T）",
+        "description": "이디야만의 차별화된 추출공법과 커피, 크림, 설탕의 최적화된 비율로 깊고 진한 커피향미와 부드럽고 달콤한 느낄 수 있는 커피믹스(30T)",
         "category": "스틱커피",
         "is_popular": false,
         "temperature": "none",
@@ -1903,7 +1903,7 @@
     },
     {
         "name": "스페셜 골드블렌드",
-        "description": "무지방 우유가 함유된 크리머를 사용하여 깔끔한 끝맛과 라떼와 같은 부드러움을 느낄 수 있는 커피믹스（30T）",
+        "description": "무지방 우유가 함유된 크리머를 사용하여 깔끔한 끝맛과 라떼와 같은 부드러움을 느낄 수 있는 커피믹스(30T)",
         "category": "스틱커피",
         "is_popular": false,
         "temperature": "none",
@@ -2005,7 +2005,7 @@
     },
     {
         "name": "(MD)그린루이보스",
-        "description": "그린 루이보스의 깔끔한 맛에 복숭아 한 조각을 베어 문 듯한 잔향의 허브티（10개입）",
+        "description": "그린 루이보스의 깔끔한 맛에 복숭아 한 조각을 베어 문 듯한 잔향의 허브티(10개입)",
         "category": "MD",
         "is_popular": false,
         "temperature": "none",
@@ -2016,7 +2016,7 @@
     },
     {
         "name": "(MD)샤인히비스커스",
-        "description": "사과, 오렌지, 패션후르츠 등의 과일향이 가득 블렌등된 새콤달콤한 허브티（10개입）",
+        "description": "사과, 오렌지, 패션후르츠 등의 과일향이 가득 블렌등된 새콤달콤한 허브티(10개입)",
         "category": "MD",
         "is_popular": false,
         "temperature": "none",
@@ -2027,7 +2027,7 @@
     },
     {
         "name": "(MD)스프링캐모마일",
-        "description": "캐모마일과 루이보스의 은은한 달콤함에 상큼한 레몬그라스향이 더해진 허브티（10개입）",
+        "description": "캐모마일과 루이보스의 은은한 달콤함에 상큼한 레몬그라스향이 더해진 허브티(10개입)",
         "category": "MD",
         "is_popular": false,
         "temperature": "none",
@@ -2038,7 +2038,7 @@
     },
     {
         "name": "(MD)퓨어페퍼민트",
-        "description": "막 피어난 싱싱하고 여린 페퍼민트의 청량함이 입 안 가득 느껴지는 허브티（10개입）",
+        "description": "막 피어난 싱싱하고 여린 페퍼민트의 청량함이 입 안 가득 느껴지는 허브티(10개입)",
         "category": "MD",
         "is_popular": false,
         "temperature": "none",
@@ -2049,7 +2049,7 @@
     },
     {
         "name": "(MD)프레시그린티",
-        "description": "어린잎 녹차의 부드러운 맛에 싱그러운 시트러스 향이 블렌딩된 그린티（10개입）",
+        "description": "어린잎 녹차의 부드러운 맛에 싱그러운 시트러스 향이 블렌딩된 그린티(10개입)",
         "category": "MD",
         "is_popular": false,
         "temperature": "none",
@@ -2060,7 +2060,7 @@
     },
     {
         "name": "(MD)피치얼그레이",
-        "description": "깊고 그윽한 홍차와 달콤한 복숭아 향이 조화롭게 어우러진 블랙티（10개입）",
+        "description": "깊고 그윽한 홍차와 달콤한 복숭아 향이 조화롭게 어우러진 블랙티(10개입)",
         "category": "MD",
         "is_popular": false,
         "temperature": "none",
