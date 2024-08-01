@@ -15,5 +15,5 @@ def do_TTS_and_play(text):
     engine.runAndWait()
     
 def run_tts_in_thread(bot_response):
-    tts_thread = threading.Thread(target=do_TTS_and_play, args=(bot_response))
+    tts_thread = threading.Thread(target=do_TTS_and_play, args=(bot_response,))
     tts_thread.start()
