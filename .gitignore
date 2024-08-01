@@ -1,3 +1,6 @@
+# Vector DB
+*.bin
+
 # Data set
 *.txt
 *.mp3
