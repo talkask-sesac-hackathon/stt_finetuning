@@ -1,45 +1,69 @@
 import ast
 import os
+import sys
 from dotenv import load_dotenv
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 
 from langchain.agents import AgentExecutor
 from langchain.agents import create_openai_functions_agent, tool
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import PromptTemplate
 
+from recommendation import *
+from data.vectordb_manager import *
+
+
 load_dotenv(override=True)
 prompt_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
 qna_prompt_path = os.path.join(prompt_path, "qna_prompts.txt")
 extract_meta_prompt_path = os.path.join(prompt_path, "extract_meta_prompts.txt")
+extract_is_popular_prompt_path = os.path.join(prompt_path, "extract_is_popular_prompts.txt")
 with open(qna_prompt_path, "r") as f:
     qna_prompt = f.read()
 with open(extract_meta_prompt_path, "r") as f:
     extract_meta_prompt = f.read()
+with open(extract_is_popular_prompt_path, "r") as f:
+    extract_is_popular_prompt = f.read()
 
 llm = ChatOpenAI(model=os.getenv("MODEL_NAME", "gpt-4o-mini"), temperature=0)
 
 @tool
-def recommend_popular_menu(text: str) -> str:
+def recommend_popular_menu(user_input: str) -> str:
     """인기있는 메뉴를 추천해주는 함수"""
-    famous_menu = '아메리카노'
+    messages = [
+        ("system", extract_is_popular_prompt),
+        ("user", user_input)
+    ]
+    is_popular = llm.invoke(messages).content
+    if is_popular == "예":
+        chroma = read_chroma(chroma_path, embedding)
+        results = chroma.similarity_search("인기 추천", k=10, filter={"is_popular": True})
+        famous_menu = list(set(get_names(results)))
+    elif is_popular == "아니요":
+        famous_menu = ''
+    elif is_popular != "예" and is_popular != "아니요":
+        if '인기' in user_input or '추천' in user_input:
+            chroma = read_chroma(chroma_path, embedding)
+            results = chroma.similarity_search("인기 추천", k=10, filter={"is_popular": True})
+            famous_menu = list(set(get_names(results)))
     return famous_menu
 
 @tool
-def recommend_menu(text: str) -> str:
+def recommend_menu(user_input: str) -> str:
     """Semantic search로 메뉴 추천"""
     print('recommend menu')
 
 @tool
-def ordering(text: str) -> str:
+def ordering(user_input: str) -> str:
     """주문이 진행됨, 메타 필터링을 활용"""
     return 'ordering'
 
 @tool
-def qna(input: str) -> str:
+def qna(user_input: str) -> str:
     """카페와 관련된 문의 사항을 응답하는 LLM 함수"""
     messages = [
         ("system", qna_prompt),
-        ("user", input),
+        ("user", user_input),
     ]
     return llm.invoke(messages).content
 
@@ -94,6 +118,6 @@ agent = create_openai_functions_agent(llm, tools, prompt)
 
 agent_executor = AgentExecutor(agent=agent, tools=tools, verbose=True)
 
-response = agent_executor.invoke({"input": "환불 어떻게 해요! 당장 환불해줘."})
+response = agent_executor.invoke({"input": "인기 있는 메뉴 추천해줘"})
 
 print(f'답변: {response["output"]}')
