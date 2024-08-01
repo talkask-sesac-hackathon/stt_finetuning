@@ -2,7 +2,8 @@ import streamlit as st
 from langchain_openai import OpenAI
 import os
 from dotenv import load_dotenv
-from stt.whisper import whisper_transcribe_from_file
+from stt_tts.whisper import whisper_transcribe_from_file
+from stt_tts.tts import do_TTS_and_play
 import wave
 import io
 from st_audiorec import st_audiorec
@@ -116,6 +117,7 @@ with col1:
         if entry['user']:  # 사용자 메시지가 비어있지 않은 경우에만 표시
             message(entry['user'], is_user=True, key=f"user_{i}")
         message(entry['bot'], key=f"bot_{i}")
+        do_TTS_and_play(entry['bot'])
 
 
 with col2:
