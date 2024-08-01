@@ -8,7 +8,7 @@ import wave
 import io
 from st_audiorec import st_audiorec
 from streamlit_chat import message
-    
+from agent.react import *
 # .env 파일에서 환경 변수 로드
 load_dotenv(override=True)
 
@@ -25,7 +25,7 @@ def chatbot_response(user_input, chat_history):
 
     messages.append({"role": "user", "content": user_input})
 
-    response = llm.invoke(user_input).content
+    response = get_react_response(user_input)
 
     return response
 
@@ -75,7 +75,7 @@ def handle_input(input):
         st.session_state.user_input = ""
 
 # 두 개의 열 생성
-col1, col2 = st.columns([1, 3])
+col1, col2 = st.columns(2)
 
 with col1:
     

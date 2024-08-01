@@ -239,6 +239,61 @@ agent = create_openai_functions_agent(llm, tools, prompt)
 
 agent_executor = AgentExecutor(agent=agent, tools=tools, verbose=True)
 
-response = agent_executor.invoke({"input": "카라멜 마끼아또 주세요"})
+import re
 
-print(f'답변: {response["output"]}')
+def extract_final_answer(text):
+    # 정규 표현식 패턴 정의
+    pattern = r"Final Answer: (.*)"
+    
+    # 정규 표현식으로 매칭
+    match = re.search(pattern, text)
+    
+    # 매칭된 결과가 있으면 그 그룹을 반환
+    if match:
+        return match.group(1)
+    else:
+        return None
+
+def extract_between_patterns(text):
+    # "Invoking: `compare_order_menu`" 이후부터 텍스트 추출
+    if text is None:
+        return ''
+    invoking_pattern = r"Invoking: `compare_order_menu`"
+    invoking_index = text.find(invoking_pattern)
+    
+    if invoking_index == -1:
+        return None
+    
+    text_after_invoking = text[invoking_index + len(invoking_pattern):]
+
+    # "'}`" 이후의 텍스트 추출
+    start_pattern = r"\}`"
+    start_match = re.search(start_pattern, text_after_invoking)
+    
+    if not start_match:
+        return ''
+    
+    start_index = start_match.end()
+    text_after_start = text_after_invoking[start_index:]
+
+    # "Question:" 이전의 텍스트 추출
+    end_pattern = r"Question:"
+    end_index = text_after_start.find(end_pattern)
+    
+    if end_index == -1:
+        return None
+    
+    result = text_after_start[:end_index].strip()
+    return result
+
+def get_react_response(input: str):
+    response = agent_executor.invoke({"input": input})
+    print(response["output"])
+    # final_response = ''
+    # ext = extract_between_patterns(response["output"])
+    # if ext != '' or ext != None:
+    #     final_response += extract_between_patterns(response["output"])
+    # if final_response == '':
+    #     final_response += extract_final_answer(response["output"])
+    # return final_response if final_response is not None else response["output"]
+    return extract_final_answer(response["output"])
