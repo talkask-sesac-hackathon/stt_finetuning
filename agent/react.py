@@ -1,20 +1,15 @@
-from langchain.agents import AgentExecutor
-from langchain.agents import create_openai_functions_agent
-from langchain_openai import ChatOpenAI
-from langchain.agents import tool
+import ast
 import os
 from dotenv import load_dotenv
-from langchain import hub
+
+from langchain.agents import AgentExecutor
+from langchain.agents import create_openai_functions_agent, tool
+from langchain_openai import ChatOpenAI
 from langchain_core.prompts import PromptTemplate
-import ast
 
-load_dotenv()
+load_dotenv(override=True)
 
-# Get OpenAI API key from environment variable
-api_key = os.getenv("OPENAI_API_KEY")
-
-# ChatOpenAI 클래스를 langchain_openai 모듈에서 가져옵니다.
-llm = ChatOpenAI(model="gpt-4-turbo-preview", temperature=0, openai_api_key = api_key)
+llm = ChatOpenAI(model=os.getenv("MODEL_NAME", "gpt-4o-mini"), temperature=0)
 
 @tool
 def recommend_popular_menu(text: str) -> str:
@@ -53,9 +48,6 @@ def calculate_price(text: str) -> str:
 @tool
 def qna(input: str) -> str:
     """카페와 관련된 문의 사항을 응답하는 LLM 함수"""
-    response = ChatOpenAI(
-        model_name="gpt-4o-mini",openai_api_key = api_key
-    )
     messages = [
         (
             "system",
@@ -80,12 +72,9 @@ def qna(input: str) -> str:
             input
             ),
     ]
-    return response.invoke(messages).content
+    return llm.invoke(messages).content
 
 def extract_meta(text: str) -> list:
-    response = ChatOpenAI(
-        model_name="gpt-4o-mini",openai_api_key = api_key
-    )
     messages=[
         (
             "system",
@@ -114,9 +103,9 @@ def extract_meta(text: str) -> list:
             text,
         )
     ]
-    return response.invoke(messages).content
+    return llm.invoke(messages).content
 
-
+ 
 tools = [recommend_popular_menu, recommend_menu, ordering, qna, calculate_price]
 
 
