@@ -1,0 +1,2072 @@
+[
+    {
+        "name": "팥인절미 빙수(1인)",
+        "description": "아삭한 얼음과 팥이 어우러진 베이스에 아이스크림, 통팥, 인절미, 시리얼을 올린 빙수",
+        "category": "빙수",
+        "is_popular": true,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "": 6300
+        }
+    },
+    {
+        "name": "망고요거놀라 빙수(1인)",
+        "description": "아삭한 얼음과 요거트가 어우러진 베이스에 아이스크림, 망고패션베이스, 그래놀라를 올린 빙수",
+        "category": "빙수",
+        "is_popular": true,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "": 6300
+        }
+    },
+    {
+        "name": "ICED 달달커피",
+        "description": "이디야의 노하우가 집약된 커피믹스의 맛을 즐길 수 있는 음료",
+        "category": "커피",
+        "is_popular": true,
+        "temperature": "iced",
+        "has_caffeine": true,
+        "pricing": {
+            "EX": 3900
+        }
+    },
+    {
+        "name": "딸기주스",
+        "description": "(Only ICED)국내산 딸기 과육을 그대로 넣어 새콤하고 달콤한 딸기 본연의 맛을 느낄 수 있는 음료",
+        "category": "음료",
+        "is_popular": true,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 4500
+        }
+    },
+    {
+        "name": "생과일 수박주스",
+        "description": "생과일 그대로 넣어 갈아 만들어 청량하고 시원한 수박 주스",
+        "category": "음료",
+        "is_popular": true,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 4900,
+            "EX": 6100
+        }
+    },
+    {
+        "name": "생과일 토마토주스",
+        "description": "생과일 그대로 넣어 갈아 만들어 새콤달콤하고 시원한 토마토 주스",
+        "category": "음료",
+        "is_popular": true,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 4900,
+            "EX": 6100
+        }
+    },
+    {
+        "name": "생과일 살얼음 수박식혜",
+        "description": "신헌산 생과일 수박과, 시원하고 달달한 식혜가 만나 달콤함과 시원함을 두배로 느낄 수 있는 음료",
+        "category": "음료",
+        "is_popular": true,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 5100,
+            "EX": 6300
+        }
+    },
+    {
+        "name": "초당옥수수 빙수(1인)",
+        "description": "알알이 씹히는 고소한 옥수수와 바삭한 콘후레이크의 식감이 어우러진 여름시즌 한정 초당 옥수수 빙수",
+        "category": "빙수",
+        "is_popular": true,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "": 6300
+        }
+    },
+    {
+        "name": "말랑핑 블루베리 드링킹요거트",
+        "description": "새콤달콤한 블루베리 드링킹 요거트에 말링핑의 캐릭터가 녹아든 이디야 캐치티니핑 캐릭터 전용 드링킹 요거트",
+        "category": "캐치티니핑 콜라보",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "L": 4900
+        }
+    },
+    {
+        "name": "베리하츄핑 딸기 드링킹요거트",
+        "description": "새콤달콤한 딸기 드링킹 요거트에 베리하츄핑의 캐릭터가 녹아든 이디야 캐치티니핑 캐릭터 전용 드링킹 요거트",
+        "category": "캐치티니핑 콜라보",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "L": 4900
+        }
+    },
+    {
+        "name": "샤샤핑의 상큼한 사워젤리",
+        "description": "샤샤핑의 펫인 아이스크림 요정 모양 젤리로 레몬&라임&파인애플 맛이 믹스되어 있는 핸디 스낵 젤리",
+        "category": "캐치티니핑 콜라보",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "": 2200
+        }
+    },
+    {
+        "name": "HOT 카페 아메리카노",
+        "description": "더 커지고 더 깊어졌다. 구운 견과류의 고소한 향미와 다크초콜렛의 Bitter sweet 깊고 깔끔한 애프터테이스트가 특징인 이디야의 대표음료",
+        "category": "커피",
+        "is_popular": false,
+        "temperature": "hot",
+        "has_caffeine": false,
+        "pricing": {
+            "L": 3200,
+            "EX": 4200
+        }
+    },
+    {
+        "name": "ICED 카페 아메리카노",
+        "description": "더 커지고 더 깊어졌다. 구운 견과류의 고소한 향미와 다크초콜렛의 Bitter sweet 깊고 깔끔한 애프터테이스트가 특징인 이디야의 대표음료",
+        "category": "커피",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "L": 3200,
+            "EX": 4200
+        }
+    },
+    {
+        "name": "ICED 달달커피",
+        "description": "이디야의 노하우가 집약된 커피믹스의 맛을 즐길 수 있는 음료",
+        "category": "커피",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "L": 2900,
+            "EX": 3900
+        }
+    },
+    {
+        "name": "ICED 넛츠 크림 라떼",
+        "description": "(Only ICED)부드러운 크림과 에스프레소, 너티 파우더가 어우러져 만들어진 완벽한 한잔의 라떼",
+        "category": "커피",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "L": 4700
+        }
+    },
+    {
+        "name": "HOT 연유 카페 라떼",
+        "description": "달콤한 연유의 맛과 에스프레소가 절묘하게 어우러져 누구나 쉽게 즐길 수 있는 부드러운 커피 음료",
+        "category": "커피",
+        "is_popular": false,
+        "temperature": "hot",
+        "has_caffeine": false,
+        "pricing": {
+            "L": 4500,
+            "EX": 5700
+        }
+    },
+    {
+        "name": "ICED 연유 카페 라떼",
+        "description": "달콤한 연유의 맛과 에스프레소가 절묘하게 어우러져 누구나 쉽게 즐길 수 있는 부드러운 커피 음료",
+        "category": "커피",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "L": 4500,
+            "EX": 5700
+        }
+    },
+    {
+        "name": "HOT 카페 라떼",
+        "description": "진한 에스프레소와 부드러운 우유가 만나 고소한 풍미를 더하는 메뉴 가장 대중적인 메뉴",
+        "category": "커피",
+        "is_popular": false,
+        "temperature": "hot",
+        "has_caffeine": false,
+        "pricing": {
+            "L": 4200,
+            "EX": 5400
+        }
+    },
+    {
+        "name": "ICED 카페 라떼",
+        "description": "진한 에스프레소와 부드러운 우유가 만나 고소한 풍미를 더하는 메뉴 가장 대중적인 메뉴",
+        "category": "커피",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "L": 4200,
+            "EX": 5400
+        }
+    },
+    {
+        "name": "HOT 카페 모카",
+        "description": "모카시럽을 만나 한층 풍부해진 에스프레소에 우유로 부드러움을 더한 달콤한 휘핑크림이 곁들여진 음료",
+        "category": "커피",
+        "is_popular": false,
+        "temperature": "hot",
+        "has_caffeine": false,
+        "pricing": {
+            "L": 4500,
+            "EX": 5700
+        }
+    },
+    {
+        "name": "ICED 카페 모카",
+        "description": "모카시럽을 만나 한층 풍부해진 에스프레소에 우유로 부드러움을 더한 달콤한 휘핑크림이 곁들여진 음료",
+        "category": "커피",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "L": 4500,
+            "EX": 5700
+        }
+    },
+    {
+        "name": "HOT 카라멜 마끼아또",
+        "description": "폼 밀크 속에 감춰진 카라멜의 달콤함과 에스프레소의 진한 맛이 돋보이는 이디야의 인기 메뉴",
+        "category": "커피",
+        "is_popular": false,
+        "temperature": "hot",
+        "has_caffeine": false,
+        "pricing": {
+            "L": 4500,
+            "EX": 5700
+        }
+    },
+    {
+        "name": "ICED 카라멜 마끼아또",
+        "description": "폼 밀크 속에 감춰진 카라멜의 달콤함과 에스프레소의 진한 맛이 돋보이는 이디야의 인기 메뉴",
+        "category": "커피",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "L": 4500,
+            "EX": 5700
+        }
+    },
+    {
+        "name": "HOT 바닐라 라떼",
+        "description": "부드러운 라떼에 은은한 바닐라 향이 더해져 더욱 달콤하게 즐길 수 있는 음료",
+        "category": "커피",
+        "is_popular": false,
+        "temperature": "hot",
+        "has_caffeine": false,
+        "pricing": {
+            "L": 4500,
+            "EX": 5700
+        }
+    },
+    {
+        "name": "ICED 바닐라 라떼",
+        "description": "부드러운 라떼에 은은한 바닐라 향이 더해져 더욱 달콤하게 즐길 수 있는 음료",
+        "category": "커피",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "L": 4500,
+            "EX": 5700
+        }
+    },
+    {
+        "name": "HOT 화이트 초콜릿 모카",
+        "description": "화이트 초콜렛과 에스프레소의 조화로운 만남에 달콤한 휘핑크림까지 함께 즐길 수 있는 음료",
+        "category": "커피",
+        "is_popular": false,
+        "temperature": "hot",
+        "has_caffeine": false,
+        "pricing": {
+            "L": 4500,
+            "EX": 5700
+        }
+    },
+    {
+        "name": "ICED 화이트 초콜릿 모카",
+        "description": "화이트 초콜렛과 에스프레소의 조화로운 만남에 달콤한 휘핑크림까지 함께 즐길 수 있는 음료",
+        "category": "커피",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "L": 4500,
+            "EX": 5700
+        }
+    },
+    {
+        "name": "HOT 민트 모카",
+        "description": "상쾌한 민트향이 더해진 진한 모카와 부드러운 휘핑크림이 잘 어울리는 음료",
+        "category": "커피",
+        "is_popular": false,
+        "temperature": "hot",
+        "has_caffeine": false,
+        "pricing": {
+            "size": "L",
+            "price": 4900
+        }
+    },
+    {
+        "name": "ICED 민트 모카",
+        "description": "상쾌한 민트향이 더해진 진한 모카와 부드러운 휘핑크림이 잘 어울리는 음료",
+        "category": "커피",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "size": "L",
+            "price": 4900
+        }
+    },
+    {
+        "name": "(Decaf)HOT 카페 아메리카노",
+        "description": "풍부한 향미와 진한 단맛을 중심으로 긴 여운의 밸런스가 좋은 디카페인 아메리카노",
+        "category": "디카페인",
+        "is_popular": false,
+        "temperature": "hot",
+        "has_caffeine": true,
+        "pricing": {
+            "L": 3700,
+            "EX": 4700
+        }
+    },
+    {
+        "name": "(Decaf)ICED 카페 아메리카노",
+        "description": "풍부한 향미와 진한 단맛을 중심으로 긴 여운의 밸런스가 좋은 디카페인 아메리카노",
+        "category": "디카페인",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": true,
+        "pricing": {
+            "L": 3700,
+            "EX": 4700
+        }
+    },
+    {
+        "name": "(Decaf)(L)ICED 넛츠 크림 라떼",
+        "description": "(Only ICED)부드러운 크림과 디카페인 에스프레소, 너티 플레이버가 어우러져 만들어진 완벽한 한 잔의 라떼",
+        "category": "디카페인",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": true,
+        "pricing": {
+            "size": "L",
+            "price": 5200
+        }
+    },
+    {
+        "name": "(Decaf)HOT 연유 카페 라떼",
+        "description": "베트남풍 연유의 달콤한 맛과 디카페인 에스프레소가 절묘하게 어우러져 누구나 쉽게 즐길 수 있는 부드러운 커피 음료",
+        "category": "디카페인",
+        "is_popular": false,
+        "temperature": "hot",
+        "has_caffeine": true,
+        "pricing": {
+            "L": 5000,
+            "EX": 6200
+        }
+    },
+    {
+        "name": "(Decaf)ICED 연유 카페 라떼",
+        "description": "베트남풍 연유의 달콤한 맛과 디카페인 에스프레소가 절묘하게 어우러져 누구나 쉽게 즐길 수 있는 부드러운 커피 음료",
+        "category": "디카페인",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": true,
+        "pricing": {
+            "L": 5000,
+            "EX": 6200
+        }
+    },
+    {
+        "name": "(Decaf)HOT 카페 라떼",
+        "description": "진한 디카페인 에스프레소와 부드러운 우유가 만나 고소한 풍미를 더하는 메뉴",
+        "category": "디카페인",
+        "is_popular": false,
+        "temperature": "hot",
+        "has_caffeine": true,
+        "pricing": {
+            "L": 4700,
+            "EX": 5900
+        }
+    },
+    {
+        "name": "(Decaf)ICED 카페 라떼",
+        "description": "진한 디카페인 에스프레소와 부드러운 우유가 만나 고소한 풍미를 더하는 메뉴",
+        "category": "디카페인",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": true,
+        "pricing": {
+            "L": 4700,
+            "EX": 5900
+        }
+    },
+    {
+        "name": "(Decaf)HOT 카페 모카",
+        "description": "모카시럽을 만나 한층 풍부해진 디카페인 에스프레소에 우유로 부드러움을 더한 달콤한 휘핑크림이 곁들여진 음료",
+        "category": "디카페인",
+        "is_popular": false,
+        "temperature": "hot",
+        "has_caffeine": true,
+        "pricing": {
+            "L": 5000,
+            "EX": 6200
+        }
+    },
+    {
+        "name": "(Decaf)ICED 카페 모카",
+        "description": "모카시럽을 만나 한층 풍부해진 디카페인 에스프레소에 우유로 부드러움을 더한 달콤한 휘핑크림이 곁들여진 음료",
+        "category": "디카페인",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": true,
+        "pricing": {
+            "L": 5000,
+            "EX": 6200
+        }
+    },
+    {
+        "name": "(Decaf)HOT 카라멜 마끼아또",
+        "description": "폼 밀크 속에 감춰진 카라멜의 달콤함과 디카페인 에스프레소의 진한 맛이 돋보이는 이디야의 인기 메뉴",
+        "category": "디카페인",
+        "is_popular": false,
+        "temperature": "hot",
+        "has_caffeine": true,
+        "pricing": {
+            "L": 5000,
+            "EX": 6200
+        }
+    },
+    {
+        "name": "(Decaf)ICED 카라멜 마끼아또",
+        "description": "폼 밀크 속에 감춰진 카라멜의 달콤함과 디카페인 에스프레소의 진한 맛이 돋보이는 이디야의 인기 메뉴",
+        "category": "디카페인",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": true,
+        "pricing": {
+            "L": 5000,
+            "EX": 6200
+        }
+    },
+    {
+        "name": "(Decaf)HOT 바닐라 라떼",
+        "description": "부드러운 디카페인 라떼에 은은한 바닐라 향이 더해져 더욱 달콤하게 즐길 수 있는 음료",
+        "category": "디카페인",
+        "is_popular": false,
+        "temperature": "hot",
+        "has_caffeine": true,
+        "pricing": {
+            "L": 5000,
+            "EX": 6200
+        }
+    },
+    {
+        "name": "(Decaf)ICED 바닐라 라떼",
+        "description": "부드러운 디카페인 라떼에 은은한 바닐라 향이 더해져 더욱 달콤하게 즐길 수 있는 음료",
+        "category": "디카페인",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": true,
+        "pricing": {
+            "L": 5000,
+            "EX": 6200
+        }
+    },
+    {
+        "name": "(Decaf)HOT 화이트초콜릿모카",
+        "description": "화이트 초콜렛과 디카페인 에스프레소의 조화로운 만남에 달콤한 휘핑크림까지 즐길 수 있는 음료",
+        "category": "디카페인",
+        "is_popular": false,
+        "temperature": "hot",
+        "has_caffeine": true,
+        "pricing": {
+            "L": 5000,
+            "EX": 6200
+        }
+    },
+    {
+        "name": "(Decaf)ICED 화이트초콜릿모카",
+        "description": "화이트 초콜렛과 디카페인 에스프레소의 조화로운 만남에 달콤한 휘핑크림까지 즐길 수 있는 음료",
+        "category": "디카페인",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": true,
+        "pricing": {
+            "L": 5000,
+            "EX": 6200
+        }
+    },
+    {
+        "name": "(Decaf)HOT 민트 모카",
+        "description": "상쾌한 민트향이 더해진 진한 디카페인 모카와 부드러운 휘핑크림이 잘 어울리는 음료",
+        "category": "디카페인",
+        "is_popular": false,
+        "temperature": "hot",
+        "has_caffeine": true,
+        "pricing": {
+            "L": "5400"
+        }
+    },
+    {
+        "name": "(Decaf)ICED 민트 모카",
+        "description": "상쾌한 민트향이 더해진 진한 디카페인 모카와 부드러운 휘핑크림이 잘 어울리는 음료",
+        "category": "디카페인",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": true,
+        "pricing": {
+            "L": "5400"
+        }
+    },
+    {
+        "name": "아샷추 복숭아",
+        "description": "(Only ICED)홍차의 깊은 맛과 풍부한 복숭아 향이 어우러진 아이스티에 이디야 에스프레소가 어우러진 음료",
+        "category": "아이스티",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 3400,
+            "EX": 4400
+        }
+    },
+    {
+        "name": "제로슈가 아샷추 복숭아",
+        "description": "(Only ICED)홍차의 깊은 맛과 풍부한 복숭아 향이 어우러진 제로 슈가 아이스티에 이디야 에스프레소가 어우러진 음료",
+        "category": "아이스티",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 3400,
+            "EX": 4400
+        }
+    },
+    {
+        "name": "아망추(복숭아)",
+        "description": "(Only ICED)홍차의 깊은 맛과 풍부한 복숭아 향이 어우러진 아이스티에 달콤한 망고가 올라가 더욱 달콤하게 즐길 수 있는 음료",
+        "category": "아이스티",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 3900,
+            "EX": 4900
+        }
+    },
+    {
+        "name": "복숭아 아이스티",
+        "description": "(Only ICED)홍차의 깊은 맛과 풍부한 복숭아 향이 어우러진 달콤한 여름철 인기 음료",
+        "category": "아이스티",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 2900,
+            "EX": 3900
+        }
+    },
+    {
+        "name": "제로슈가 아이스티 복숭아",
+        "description": "(Only ICED)홍차의 깊은 맛과 풍부한 복숭아 향이 어우러진 아이스티를 제로 슈가로 즐길 수 있는 음료",
+        "category": "아이스티",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 2900,
+            "EX": 3900
+        }
+    },
+    {
+        "name": "레몬 아이스티",
+        "description": "(Only ICED)입안 가득 상큼한 레몬향이 퍼지는 새콤달콤한 맛의 아이스티",
+        "category": "아이스티",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 2900,
+            "EX": 3900
+        }
+    },
+    {
+        "name": "청크초코칩 크루키",
+        "description": "크루아상과 쿠키의 조합이 좋은 제품으로 버터풍미가 좋은 크루아상과 달콤한 쿠키의 맛이 더해진것이 특징",
+        "category": "베이커리",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "": 4600
+        }
+    },
+    {
+        "name": "대파베이컨 크림치즈 베이글",
+        "description": "치즈가 토핑된 베이글에 대파에 베이컨이 들어간 크림치즈를 발라서 부드럽고 깔끔한 맛으로 음료와 잘 어울리는 제품",
+        "category": "베이커리",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "": 4200
+        }
+    },
+    {
+        "name": "버터 팬케이크",
+        "description": "버터가 올라간 부드러운 팬케이크 위에 달콤한 메이플시럽을 부어서 음료 등과 가볍게 먹기 좋은 제품",
+        "category": "베이커리",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "": 3900
+        }
+    },
+    {
+        "name": "소금빵",
+        "description": "겉은 바삭하고 속은 촉촉한 겉바속촉 소금빵",
+        "category": "베이커리",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "": 3000
+        }
+    },
+    {
+        "name": "소금 버터 스콘",
+        "description": "버터풍미가 가득 느껴지는 고소하고 짭짤한 소금 버터 스콘（딸기잼과 함께 제공됩니다.）",
+        "category": "베이커리",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "": 2900
+        }
+    },
+    {
+        "name": "베이컨포테이토 스퀘어피자",
+        "description": "큼직한 큐브 포테이토와 짭짤한 맛의 베이컨이 토핑되어 포만감을 느낄 수 있는 조각 피자※전자레인지에 15~30초 조리 시 더 맛있게 드실 수 있습니다.",
+        "category": "베이커리",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "": 4200
+        }
+    },
+    {
+        "name": "매콤 로제 구운 주먹밥",
+        "description": "매콤하고 부드러운 로제 떡볶이 양념과 부드러운 모짜렐라 치즈가 잘 어우러진 구운 주먹밥",
+        "category": "베이커리",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "": 2000
+        }
+    },
+    {
+        "name": "까르보나라 구운 주먹밥",
+        "description": "까르보나라소스와 베이컨이 부드러운 모짜렐라 치즈와 잘 어우러진 구운 주먹밥",
+        "category": "베이커리",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "": 2000
+        }
+    },
+    {
+        "name": "허니 카라멜 브레드",
+        "description": "은은한 시나몬과 진한 카라멜 코팅이 된 허니브레드에 휘핑크림을 더해 한결 부드러워진 맛의 허니브레드",
+        "category": "베이커리",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "": 5400
+        }
+    },
+    {
+        "name": "메이플 넛 브레드",
+        "description": "메이플 향이 풍부한 브레드에 풍성한 휘핑크림과 몸에 좋은 호두와 아몬드가 더해진 중독성 강한 허니브레드",
+        "category": "베이커리",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "": 5400
+        }
+    },
+    {
+        "name": "플레인 와플",
+        "description": "담백하고 쫄깃한 그대로를 즐길 수 있는 정통 벨기에 와플",
+        "category": "베이커리",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "": 2700
+        }
+    },
+    {
+        "name": "크림치즈 와플(NEW)",
+        "description": "와플과 함께 고소하고 진한 크림치즈의 풍미를 더해 더욱 깊은 맛을 즐길 수 있는 메뉴",
+        "category": "베이커리",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "": 3600
+        }
+    },
+    {
+        "name": "생크림 와플",
+        "description": "쫄깃한 와플과 생크림의 달콤함을 함께 즐길 수 있는 메뉴",
+        "category": "베이커리",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "": 2900
+        }
+    },
+    {
+        "name": "메이플 와플",
+        "description": "고소한 와플과 달콤한 메이플 향이 입안 가득 은은하게 퍼지는 메뉴",
+        "category": "베이커리",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "": 3200
+        }
+    },
+    {
+        "name": "플레인 베이글(NEW)",
+        "description": "담백하고 쫄깃해서 크림치즈와 함께 먹으면 더욱 맛있는 베이글",
+        "category": "베이커리",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "": 2500
+        }
+    },
+    {
+        "name": "크로크무슈",
+        "description": "햄과 치즈가 들어있어 담백하고 고소한 맛을 즐길 수 있는, 한 끼 식사 대용으로 좋은 제품",
+        "category": "베이커리",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "": 4700
+        }
+    },
+    {
+        "name": "소고기 브리또",
+        "description": "한국식 불고기와 채소가 들어가 든든하게 한 끼 식사로 좋은 퓨전 멕시코 음식",
+        "category": "베이커리",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "": 4200
+        }
+    },
+    {
+        "name": "핫치킨 브리또",
+        "description": "매콤한 닭고기와 채소가 들어가 든든하게 한 끼 식사로 좋은 멕시코 요리",
+        "category": "베이커리",
+        "is_popular": false,
+        "temperature": "hot",
+        "has_caffeine": false,
+        "pricing": {
+            "": 4200
+        }
+    },
+    {
+        "name": "잉글리쉬 머핀",
+        "description": "폭신한 잉글리쉬 머핀에 달걀, 햄, 치즈, 그리고 홀머스터드가 발라진 영국식 아침 식사 대용 제품",
+        "category": "베이커리",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "": 3700
+        }
+    },
+    {
+        "name": "딸기 듬뿍 라떼",
+        "description": "(Only ICED)달콤한 딸기의 식감과 상큼함을 듬뿍 담은 음료",
+        "category": "음료",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 3900,
+            "EX": 5300
+        }
+    },
+    {
+        "name": "ICED 달고나 라떼",
+        "description": "(Only ICED)달콤한 달고나와 우유가 조화롭게 어우러져, 달고나 분태의 바삭한 식감과 함께 즐길 수 있는 제품",
+        "category": "음료",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 3700,
+            "EX": 4900
+        }
+    },
+    {
+        "name": "흑당 라떼",
+        "description": "(Only ICED)진하고 달콤한 흑당과 고소한 우유가 어우러진 논커피 음료",
+        "category": "음료",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 3700,
+            "EX": 4900
+        }
+    },
+    {
+        "name": "HOT 초콜릿",
+        "description": "진한 모카시럽과 부드러운 우유, 그리고 달콤한 휘핑크림의 삼박자가 조화를 이루는 음료",
+        "category": "음료",
+        "is_popular": false,
+        "temperature": "hot",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 3900,
+            "EX": 5100
+        }
+    },
+    {
+        "name": "ICED 초콜릿",
+        "description": "진한 모카시럽과 부드러운 우유, 그리고 달콤한 휘핑크림의 삼박자가 조화를 이루는 음료",
+        "category": "음료",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 3900,
+            "EX": 5100
+        }
+    },
+    {
+        "name": "HOT 민트 초콜릿",
+        "description": "상쾌한 민트향이 가득한 진한 초콜렛 위에 달콤한 휘핑크림으로 마무리한 이디야의 인기메뉴",
+        "category": "음료",
+        "is_popular": false,
+        "temperature": "hot",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 4200
+        }
+    },
+    {
+        "name": "ICED 민트 초콜릿",
+        "description": "상쾌한 민트향이 가득한 진한 초콜렛 위에 달콤한 휘핑크림으로 마무리한 이디야의 인기메뉴",
+        "category": "음료",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 4200
+        }
+    },
+    {
+        "name": "HOT 녹차 라떼",
+        "description": "녹차에 우유가 더해져 부담없이 즐길 수 있는 음료",
+        "category": "음료",
+        "is_popular": false,
+        "temperature": "hot",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 3900,
+            "EX": 5100
+        }
+    },
+    {
+        "name": "ICED 녹차 라떼",
+        "description": "녹차에 우유가 더해져 부담없이 즐길 수 있는 음료",
+        "category": "음료",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 3900,
+            "EX": 5100
+        }
+    },
+    {
+        "name": "HOT 12곡 라떼",
+        "description": "몸에 이로운 곡물이 들어가 든든하고 포만감을 주는 메뉴, 한끼 식사 대용으로도 충분한 음료",
+        "category": "음료",
+        "is_popular": false,
+        "temperature": "hot",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 3700
+        }
+    },
+    {
+        "name": "ICED 12곡 라떼",
+        "description": "몸에 이로운 곡물이 들어가 든든하고 포만감을 주는 메뉴, 한끼 식사 대용으로도 충분한 음료",
+        "category": "음료",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 3700
+        }
+    },
+    {
+        "name": "HOT 토피 넛 라떼",
+        "description": "다양한 견과류의 맛과 달콤한 코코아가 조화롭게 어우러진 달콤한 음료",
+        "category": "음료",
+        "is_popular": false,
+        "temperature": "hot",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 4200,
+            "EX": 5400
+        }
+    },
+    {
+        "name": "ICED 토피 넛 라떼",
+        "description": "다양한 견과류의 맛과 달콤한 코코아가 조화롭게 어우러진 달콤한 음료",
+        "category": "음료",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 4200,
+            "EX": 5400
+        }
+    },
+    {
+        "name": "HOT 고구마 라떼",
+        "description": "호박고구마를 활용하여 달콤하고 고소한 고구마의 풍미가 진하게 느껴지는 음료",
+        "category": "음료",
+        "is_popular": false,
+        "temperature": "hot",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 4200
+        }
+    },
+    {
+        "name": "ICED 고구마 라떼",
+        "description": "호박고구마를 활용하여 달콤하고 고소한 고구마의 풍미가 진하게 느껴지는 음료",
+        "category": "음료",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 4200
+        }
+    },
+    {
+        "name": "딸기주스",
+        "description": "(Only ICED)국내산 딸기 과육을 그대로 넣어 새콤하고 달콤한 딸기 본연의 맛을 느낄 수 있는 음료",
+        "category": "음료",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 4500
+        }
+    },
+    {
+        "name": "골드키위주스",
+        "description": "(Only ICED)고급 골드키위를 사용하여 비타민 C가 풍부하고 상큼한 음료",
+        "category": "음료",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 4500
+        }
+    },
+    {
+        "name": "홍시주스",
+        "description": "(Only ICED)부드럽고 달콤한 홍시 본연의 맛을 느낄 수 있는 음료",
+        "category": "음료",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 4500
+        }
+    },
+    {
+        "name": "팥인절미 눈꽃빙수",
+        "description": "부드러운 우유 눈꽃 빙수에 국산팥과 인절미를 올려 고소하고 달콤하게 즐길 수 있는 빙수",
+        "category": "빙수",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "": 11800
+        }
+    },
+    {
+        "name": "애플망고 눈꽃빙수",
+        "description": "부드러운 우유 눈꽃 빙수에 달콤한 망고를 더해 시원하고 달콤하게 즐길 수 있는 빙수",
+        "category": "빙수",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "": 11800
+        }
+    },
+    {
+        "name": "바닐라 오트 콜드브루",
+        "description": "(Only ICED)오트의 고소함과 부드러운 바닐라 크림이 콜드브루와 어우러져 담백하게 즐길 수 있는 음료",
+        "category": "콜드브루",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 5200
+        }
+    },
+    {
+        "name": "(Decaf)바닐라 오트 콜드브루",
+        "description": "(Only ICED)(디카페인)오트의 고소함과 부드러운 바닐라 크림이 콜드브루와 어우러져 담백하게 즐길 수 있는 음료",
+        "category": "콜드브루",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": true,
+        "pricing": {
+            "R": 5500
+        }
+    },
+    {
+        "name": "연유 콜드브루",
+        "description": "(Only ICED)달콤한 연유의 맛과 밸런스 잡힌 이디야 콜드브루가 어우러져 특색 있게 즐길 수 있는 음료",
+        "category": "콜드브루",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 4700,
+            "EX": 5900
+        }
+    },
+    {
+        "name": "(Decaf)연유 콜드브루",
+        "description": "(Only ICED)(디카페인)달콤한 연유의 맛과 밸런스 잡힌 이디야 콜드브루가 어우러져 특색 있게 즐길 수 있는 음료",
+        "category": "콜드브루",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": true,
+        "pricing": {
+            "R": 5000,
+            "EX": 6200
+        }
+    },
+    {
+        "name": "흑당 콜드브루",
+        "description": "(Only ICED)이디야의 밸런스 잡힌 콜드브루에 진하고 달콤한 흑당과 고소한 우유가 어우러진 커피음료",
+        "category": "콜드브루",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 4200,
+            "EX": 5400
+        }
+    },
+    {
+        "name": "(Decaf)흑당 콜드브루",
+        "description": "(Only ICED)(디카페인)이디야의 밸런스 잡힌 콜드브루에 진하고 달콤한 흑당과 고소한 우유가 어우러진 커피음료",
+        "category": "콜드브루",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": true,
+        "pricing": {
+            "R": 4500,
+            "EX": 5700
+        }
+    },
+    {
+        "name": "콜드브루",
+        "description": "(Only ICED)이디야만의 블렌딩을 통해 커피의 깊은 단맛과 바디감, 균형잡힌 밸런스를 느낄 수 있는 시원한 콜드브루 커피",
+        "category": "콜드브루",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 3900,
+            "EX": 4900
+        }
+    },
+    {
+        "name": "(Decaf)콜드브루",
+        "description": "(Only ICED)(디카페인)이디야만의 블렌딩을 통해 커피의 깊은 단맛과 바디감, 균형잡힌 밸런스를 느낄 수 있는 시원한 콜드브루 커피",
+        "category": "콜드브루",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": true,
+        "pricing": {
+            "R": 4200,
+            "EX": 5200
+        }
+    },
+    {
+        "name": "콜드브루 라떼",
+        "description": "(Only ICED)콜드브루의 깔끔하고 쌉싸름한 풍미가 고소한 우유와 만나 누구나 부담없이 즐길 수 있는 음료",
+        "category": "콜드브루",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 4500,
+            "EX": 5700
+        }
+    },
+    {
+        "name": "(Decaf)콜드브루 라떼",
+        "description": "(Only ICED)(디카페인)콜드브루의 깔끔하고 쌉싸름한 풍미가 고소한 우유와 만나 누구나 부담없이 즐길 수 있는 음료",
+        "category": "콜드브루",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": true,
+        "pricing": {
+            "R": 4800,
+            "EX": 6000
+        }
+    },
+    {
+        "name": "(R)콜드브루 화이트 비엔나",
+        "description": "(Only ICED)달콤한 크림과 화이트 초콜릿향, 아이리쉬크림향이 더해져 콜드브루의 풍미가 잘 어우러진 음료",
+        "category": "콜드브루",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 4900
+        }
+    },
+    {
+        "name": "(Decaf)콜드브루 화이트 비엔나",
+        "description": "(Only ICED)(디카페인)달콤한 크림과 화이트 초콜릿향, 아이리쉬크림향이 더해져 콜드브루의 풍미가 잘 어우러진 음료",
+        "category": "콜드브루",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": true,
+        "pricing": {
+            "R": 5200
+        }
+    },
+    {
+        "name": "버블 흑당 라떼",
+        "description": "(Only ICED)진하고 달콤한 흑당에 쫄깃한 버블이 어우러진 논커피 음료",
+        "category": "버블티",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 4700,
+            "EX": 5900
+        }
+    },
+    {
+        "name": "버블 크림 밀크티",
+        "description": "(Only ICED)베르가못 향과 우롱티의 밸런스를 잡아 풍부하고 깊은 맛과 크림의 부드러움을 함께 느끼고, 타피오카 펄의 쫄깃한 식감까지 즐길 수 있는 음료",
+        "category": "버블티",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 4700
+        }
+    },
+    {
+        "name": "피스타치오 매직팝 플랫치노",
+        "description": "입안 가득 톡톡 튀는 알록달록 팝핑캔디의 재미와 고소한 피스타치오의 풍미가 특징인 제품",
+        "category": "플랫치노",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 4500
+        }
+    },
+    {
+        "name": "배 플랫치노",
+        "description": "나주배의 시원하고 청량감 넘치는 달콤함이 특징인 제품",
+        "category": "플랫치노",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 3900
+        }
+    },
+    {
+        "name": "자두 플랫치노",
+        "description": "자두 과육 본연의 상큼 달달한 맛을 느낄 수 있는 제품",
+        "category": "플랫치노",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 3900
+        }
+    },
+    {
+        "name": "망고 플랫치노",
+        "description": "(Only ICED)열대과일인 망고의 달콤하고 진한 맛을 그대로 담아낸 여름철 인기 메뉴",
+        "category": "플랫치노",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 3900
+        }
+    },
+    {
+        "name": "꿀복숭아 플랫치노",
+        "description": "(Only ICED)복숭아의 리얼한 풍미와 꿀의 달콤함이 최적의 조화를 이룬 달콤하고 시원한 플랫치노",
+        "category": "플랫치노",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 3900
+        }
+    },
+    {
+        "name": "초콜릿 칩 플랫치노",
+        "description": "(Only ICED)트리플 모카시럽에 초콜릿이 더해져 씹는 재미가 있는 달콤한 플랫치노",
+        "category": "플랫치노",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 4500
+        }
+    },
+    {
+        "name": "민트 초콜릿 칩 플랫치노",
+        "description": "(Only ICED)진한 민트향이 더해진 초코렛에 초콜렛칩이 가득 들어있는 젊은 감성의 이디야 플랫치노",
+        "category": "플랫치노",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 4500
+        }
+    },
+    {
+        "name": "플레인 요거트 플랫치노",
+        "description": "(Only ICED)요거트 고유의 새콤달콤한 맛을 그대로 살린 메뉴로 여성들에게 인기가 좋은 음료",
+        "category": "플랫치노",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 4500
+        }
+    },
+    {
+        "name": "블루베리 요거트 플랫치노",
+        "description": "(Only ICED)블루베리 본연의 맛과 상큼한 요거트의 조화를 이룬 새콤달콤한 요거트 플랫치노",
+        "category": "플랫치노",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 4700
+        }
+    },
+    {
+        "name": "딸기 요거트 플랫치노",
+        "description": "(Only ICED)남녀노소 누구나 좋아하는 딸기와 상큼한 요거트가 조화롭게 어우러진 플랫치노",
+        "category": "플랫치노",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 4700
+        }
+    },
+    {
+        "name": "살얼음 식혜",
+        "description": "(Only ICED)밥알이 씹히는 정성 가득한 식혜에 살얼음을 띄워 더욱 시원하게 즐길 수 있는 시즌 한정메뉴",
+        "category": "블렌딩티",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 4200,
+            "EX": 5200
+        }
+    },
+    {
+        "name": "HOT 그린루이보스",
+        "description": "복숭아 한 조각을 베어 문 잔향이 입안에 남는 맑은 수색의 루이보스 티（카페인 無）",
+        "category": "블렌딩티",
+        "is_popular": false,
+        "temperature": "hot",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 3200,
+            "EX": 4200
+        }
+    },
+    {
+        "name": "ICED 그린루이보스",
+        "description": "복숭아 한 조각을 베어 문 잔향이 입안에 남는 맑은 수색의 루이보스 티（카페인 無）",
+        "category": "블렌딩티",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 3200,
+            "EX": 4200
+        }
+    },
+    {
+        "name": "HOT 샤인히비스커스",
+        "description": "사과, 오렌지, 패션후르츠 등이 블렌딩 된 과일향 가득한 새콤달콤한 맛의 허브티（카페인 無）",
+        "category": "블렌딩티",
+        "is_popular": false,
+        "temperature": "hot",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 3200,
+            "EX": 4200
+        }
+    },
+    {
+        "name": "ICED 샤인히비스커스",
+        "description": "사과, 오렌지, 패션후르츠 등이 블렌딩 된 과일향 가득한 새콤달콤한 맛의 허브티（카페인 無）",
+        "category": "블렌딩티",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 3200,
+            "EX": 4200
+        }
+    },
+    {
+        "name": "HOT 스프링캐모마일",
+        "description": "캐모마일과 루이보스, 레몬그라스 등이 블렌딩 되어 은은함이 돋보이는 허브티（카페인 無）",
+        "category": "블렌딩티",
+        "is_popular": false,
+        "temperature": "hot",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 3200,
+            "EX": 4200
+        }
+    },
+    {
+        "name": "ICED 스프링캐모마일",
+        "description": "캐모마일과 루이보스, 레몬그라스 등이 블렌딩 되어 은은함이 돋보이는 허브티（카페인 無）",
+        "category": "블렌딩티",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 3200,
+            "EX": 4200
+        }
+    },
+    {
+        "name": "HOT 퓨어페퍼민트",
+        "description": "입 안 가득 청량함이 느껴지는 상쾌한 허브티（카페인 無）",
+        "category": "블렌딩티",
+        "is_popular": false,
+        "temperature": "hot",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 3200,
+            "EX": 4200
+        }
+    },
+    {
+        "name": "ICED 퓨어페퍼민트",
+        "description": "입 안 가득 청량함이 느껴지는 상쾌한 허브티（카페인 無）",
+        "category": "블렌딩티",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 3200,
+            "EX": 4200
+        }
+    },
+    {
+        "name": "HOT 피치얼그레이",
+        "description": "깊고 그윽한 홍차와 달콤한 복숭아 향이 어우러지는 깔끔한 맛의 얼그레이 티（카페인 有）",
+        "category": "블렌딩티",
+        "is_popular": false,
+        "temperature": "hot",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 3200,
+            "EX": 4200
+        }
+    },
+    {
+        "name": "ICED 피치얼그레이",
+        "description": "깊고 그윽한 홍차와 달콤한 복숭아 향이 어우러지는 깔끔한 맛의 얼그레이 티（카페인 有）",
+        "category": "블렌딩티",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 3200,
+            "EX": 4200
+        }
+    },
+    {
+        "name": "HOT 쌍화차",
+        "description": "전통 쌍화차의 느낌을 이디야만의 색깔로 재해석하여 다양한 연령층이 즐길 수 있도록 은은한 향과 고소함을 강조한 음료",
+        "category": "블렌딩티",
+        "is_popular": false,
+        "temperature": "hot",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 4200
+        }
+    },
+    {
+        "name": "ICED 쌍화차",
+        "description": "전통 쌍화차의 느낌을 이디야만의 색깔로 재해석하여 다양한 연령층이 즐길 수 있도록 은은한 향과 고소함을 강조한 음료",
+        "category": "블렌딩티",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 4200
+        }
+    },
+    {
+        "name": "HOT 생강차",
+        "description": "생강 특유의 진하고 풍부한 맛과 향미를 느낄 수 있으며, 은은하고 부드러운 단맛의 유자와 꿀이 더해진 음료",
+        "category": "블렌딩티",
+        "is_popular": false,
+        "temperature": "hot",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 4200
+        }
+    },
+    {
+        "name": "ICED 생강차",
+        "description": "생강 특유의 진하고 풍부한 맛과 향미를 느낄 수 있으며, 은은하고 부드러운 단맛의 유자와 꿀이 더해진 음료",
+        "category": "블렌딩티",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 4200
+        }
+    },
+    {
+        "name": "HOT 밀크티",
+        "description": "잉글리쉬 블랙퍼스트의 깊은 풍미와 고소한 우유가 어우러져 부드럽게 즐길 수 있는 음료",
+        "category": "블렌딩티",
+        "is_popular": false,
+        "temperature": "hot",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 4200
+        }
+    },
+    {
+        "name": "ICED 밀크티",
+        "description": "잉글리쉬 블랙퍼스트의 깊은 풍미와 고소한 우유가 어우러져 부드럽게 즐길 수 있는 음료",
+        "category": "블렌딩티",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 4200
+        }
+    },
+    {
+        "name": "ICED 석류 애플라임",
+        "description": "(Only ICED)산뜻한 석류에 다양한 과일과 꽃, 그리고 샴페인의 향이 더해져 보다 깊고 중후한 맛이 느껴지는 아이스 블렌딩티",
+        "category": "블렌딩티",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "EX": 5100
+        }
+    },
+    {
+        "name": "ICED 유자 피나콜라다",
+        "description": "(Only ICED)유자청에 사과, 파인애플, 히비스커스, 로즈힙, 코코넛 등의 향을 넣어 신맛과 달콤한 맛의 밸런스가 좋은 아이스 블렌딩티",
+        "category": "블렌딩티",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "EX": 5100
+        }
+    },
+    {
+        "name": "ICED 자몽 네이블오렌지",
+        "description": "(Only ICED)자몽청에 오렌지, 귤, 로즈힙, 사과, 파인애플 등의 향을 넣어 부드러운 신맛과 오렌지의 풍미를 즐길 수 있는 아이스 블렌딩티",
+        "category": "블렌딩티",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "EX": 5100
+        }
+    },
+    {
+        "name": "HOT 자몽차",
+        "description": "(Only HOT)풍부한 자몽 과육으로 신맛과 쓴맛을 내어 천연의 자몽맛을 내는 과일차",
+        "category": "블렌딩티",
+        "is_popular": false,
+        "temperature": "hot",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 4200
+        }
+    },
+    {
+        "name": "HOT 유자차",
+        "description": "(Only HOT)유자 과육이 풍부한 홈메이드 방식의 달콤한 과일차（국내산 고흥유자 사용）",
+        "category": "블렌딩티",
+        "is_popular": false,
+        "temperature": "hot",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 4200
+        }
+    },
+    {
+        "name": "HOT 자몽 네이블오렌지",
+        "description": "(Only HOT)신맛과 쓴맛이 특징적인 자몽차에 네이블 오렌지의 부드러운 향이 어우러져 최적의 밸런스를 이루는 천연 과일 주스 느낌의 블렌딩티",
+        "category": "블렌딩티",
+        "is_popular": false,
+        "temperature": "hot",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 4500
+        }
+    },
+    {
+        "name": "HOT 유자 피나콜라다",
+        "description": "(Only HOT)파인애플의 신맛과 달콤한 향에 코코넛향과 유자청을 넣어 맛의 밸런스를 좋게 한 블렌딩티",
+        "category": "블렌딩티",
+        "is_popular": false,
+        "temperature": "hot",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 4500
+        }
+    },
+    {
+        "name": "HOT 석류 오리지널",
+        "description": "(Only HOT)석류의 산뜻한 향과 과육이 한알 한알 느껴지는 붉은 빛이 매력적인 과일차",
+        "category": "블렌딩티",
+        "is_popular": false,
+        "temperature": "hot",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 4200
+        }
+    },
+    {
+        "name": "HOT 석류 애플라임",
+        "description": "(Only HOT)산뜻한 석류차에 부드럽고 과일향과 꽃향이 더해져 고급스러운 향이 느껴지는 블렌딩티",
+        "category": "블렌딩티",
+        "is_popular": false,
+        "temperature": "hot",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 4500
+        }
+    },
+    {
+        "name": "자몽포멜로 에이드",
+        "description": "(Only ICED)싱그러운 포멜로와 자몽의 상큼함을 즐길 수 있는 청량한 에이드",
+        "category": "에이드",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "L": 4700,
+            "EX": 5700
+        }
+    },
+    {
+        "name": "머스캣모히또 에이드",
+        "description": "(Only ICED)샤인머스캣의 달콤함과 향긋한 민트향을 동시에 즐길 수 있는 상큼한 에이드(무알콜)",
+        "category": "에이드",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "L": 4700,
+            "EX": 5700
+        }
+    },
+    {
+        "name": "감귤레몬 에이드",
+        "description": "(Only ICED)레몬의 상큼함과 감귤의 달달함을 더욱 즐길 수 있는 달달한 에이드",
+        "category": "에이드",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "L": 4700,
+            "EX": 5700
+        }
+    },
+    {
+        "name": "파인피치우롱 에이드",
+        "description": "(Only ICED)상큼한 파인애플과 피치우롱의 풍미를 느낄 수 있는 깔끔한 에이드",
+        "category": "에이드",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "L": 4700,
+            "EX": 5700
+        }
+    },
+    {
+        "name": "꿀복숭아 에이드",
+        "description": "(Only ICED)꿀의 달콤함과 씹히는 복숭아 과육을 즐길 수 있는 달콤한 에이드",
+        "category": "에이드",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "L": 4700,
+            "EX": 5700
+        }
+    },
+    {
+        "name": "오리진 쉐이크",
+        "description": "(Only ICED)우유 그대로의 부드러운 맛을 느낄 수 있으며, 어린이와 청소년도 즐겨 먹을 수 있는 쉐이크",
+        "category": "쉐이크",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 4700
+        }
+    },
+    {
+        "name": "초코 쿠키 쉐이크",
+        "description": "(Only ICED)초코쿠키의 달콤함과 바삭함을 느낄 수 있어, 어린이와 청소년에게 인기 있는 쉐이크",
+        "category": "쉐이크",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 4900
+        }
+    },
+    {
+        "name": "딸기 쉐이크",
+        "description": "(Only ICED)부드러운 우유의 맛과 국내산 딸기의 달콤함이 조화로운 쉐이크",
+        "category": "쉐이크",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "R": 5200
+        }
+    },
+    {
+        "name": "이디야 콤부차 청포도레몬",
+        "description": "새콤하고 톡쏘는 맛의 발효 콤부차에 이디야의 노하우로 만든 청포도레몬 티베이스를 블렌딩한 발효 음료(프로바이오틱스 함유)",
+        "category": "병 음료",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "": 3900
+        }
+    },
+    {
+        "name": "이디야 콤부차 복숭아망고",
+        "description": "새콤하고 톡쏘는 맛의 발효 콤부차에 이디야의 노하우로 만든 복숭아망고 티베이스를 블렌딩한 발효 음료(프로바이오틱스 함유)",
+        "category": "병 음료",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "": 3900
+        }
+    },
+    {
+        "name": "이디야 콤부차 석류애플라임",
+        "description": "새콤하고 톡쏘는 맛의 발효 콤부차에 이디야의 노하우로 만든 석류애플라임 티베이스를 블렌딩한 발효 음료(프로바이오틱스 함유)",
+        "category": "병 음료",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "": 3900
+        }
+    },
+    {
+        "name": "이디야 감귤&한라봉 주스",
+        "description": "감귤의 상큼함에 싱그러운 한라봉의 진한 향이 기분 좋게 느껴지는 착즙주스（245ml）",
+        "category": "병 음료",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "": 3400
+        }
+    },
+    {
+        "name": "이디야 청포도&케일 주스",
+        "description": "풍부한 영양성분을 함유한 케일에 달콤한 청포도를 더해 맛있게 먹을 수 있는 건강 착즙주스（245ml）",
+        "category": "병 음료",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "": 3400
+        }
+    },
+    {
+        "name": "이디야 사과&당근 주스",
+        "description": "은은한 당근 향과 달콤한 사과의 맛이 완벽하게 어우러진 착즙주스（245ml）",
+        "category": "병 음료",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "": 3400
+        }
+    },
+    {
+        "name": "(병)유자 피나콜라다",
+        "description": "유자의 신맛에 피나콜라다의 달콤한 향이 더해져 밸런스가 좋은 블렌딩티",
+        "category": "병 음료",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "": 3000
+        }
+    },
+    {
+        "name": "(병)자몽 네이블오렌지",
+        "description": "자몽의 부드러운 신맛과 오렌지향을 즐길 수 있는 이디야 블렌딩티",
+        "category": "병 음료",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "": 3000
+        }
+    },
+    {
+        "name": "(병)석류 애플라임",
+        "description": "산뜻한 석류에 와인의 향이 더해져 보다 깊고 중후한 맛이 느껴지는 블렌딩티",
+        "category": "병 음료",
+        "is_popular": false,
+        "temperature": "iced",
+        "has_caffeine": false,
+        "pricing": {
+            "": 3000
+        }
+    },
+    {
+        "name": "크리미초코 감자쿠키",
+        "description": "슬림한 감자 크래커에 달콤한 초콜릿이 샌딩되어 있는 디저트 쿠키 스낵",
+        "category": "스낵",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "": 2800
+        }
+    },
+    {
+        "name": "크리미피넛 감자쿠키",
+        "description": "슬림한 감자 크래커에 달달하고 고소한 피넛 크림이 샌딩되어 있는 디저트 쿠키 스낵",
+        "category": "스낵",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "": 2800
+        }
+    },
+    {
+        "name": "이디야 단백질바 초코쿠키",
+        "description": "고함량 단백질（13g）과 함께 달콤한 초콜릿 코팅과, 쿠키분태 오곡초코볼, 크리스피볼, 시리얼 등 재미있는 식감을 느낄 수 있는 달콤바삭한 초코바",
+        "category": "스낵",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "": 1400
+        }
+    },
+    {
+        "name": "이디야 비타민바 그릭요거트",
+        "description": "비타민C 일일권장량（100mg）과 식이섬유（3g）가 들어있고 동결건조과일 3종의 달콤함과 그릭요거트의 상큼함이 있는 기분 좋은 새콤고소한 스낵바",
+        "category": "스낵",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "": 1400
+        }
+    },
+    {
+        "name": "미니프레첼 초코맛",
+        "description": "바삭한 프레첼의 식감에 달콤한 초콜릿 코팅과 짭짤한 소금의 조화로 단짠단짠의 매력을 느낄 수 있는 스낵",
+        "category": "스낵",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "": 1500
+        }
+    },
+    {
+        "name": "미니프레첼 볶음양념맛",
+        "description": "감칠맛과 짭짤함이 느껴지는 자꾸만 손이 가는 프레첼 모양의 과자",
+        "category": "스낵",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "": 1200
+        }
+    },
+    {
+        "name": "미니코코 크런치",
+        "description": "초코맛 과자의 달콤함과 밀크크림의 부드러움이 조화로운 제품",
+        "category": "스낵",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "": 1900
+        }
+    },
+    {
+        "name": "스페셜 모카블렌드",
+        "description": "이디야만의 차별화된 추출공법과 커피, 크림, 설탕의 최적화된 비율로 깊고 진한 커피향미와 부드럽고 달콤한 느낄 수 있는 커피믹스（30T）",
+        "category": "스틱커피",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "30T": 5400,
+            "100T": 14700
+        }
+    },
+    {
+        "name": "스페셜 골드블렌드",
+        "description": "무지방 우유가 함유된 크리머를 사용하여 깔끔한 끝맛과 라떼와 같은 부드러움을 느낄 수 있는 커피믹스（30T）",
+        "category": "스틱커피",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "30T": 5400,
+            "100T": 14700
+        }
+    },
+    {
+        "name": "스틱커피디카페인아메리카노",
+        "description": "워터프로세스 공법으로 카페인은 제거, 커피맛은 그대로. 물을 사용하여 안전하게 카페인을 제거한 원두를 사용하여 오리지널 아메리카노와 같은 깊고 진한 커피풍미를 느낄 수 있습니다.",
+        "category": "스틱커피",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "20T": 4700,
+            "80+20T": 16400
+        }
+    },
+    {
+        "name": "스틱커피오리지널아메리카노",
+        "description": "커피 생산 최적지인 콜롬비아산 SD 인스턴트 BASE를 사용하였습니다. 감칠맛과 뛰어난 향기가 특징입니다. 이디야의 기술력이 녹아 있는 대표 비니스트! 오리지널에는 다 이유가 있습니다. 언제 어디서나 간편하게 물에 사르르 녹는 오리지널의 향을 즐겨보세요.",
+        "category": "스틱커피",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "20T": 4700,
+            "80+20T": 16400
+        }
+    },
+    {
+        "name": "스틱커피카페라떼",
+        "description": "콜롬비아산 최상급 원료로 구현한 블렌드의 고소함과 부드러운 라떼가 조화를 이룹니다. 커피우유와 라떼는 다릅니다. 우유와 평생 짝이 되고 싶은 최적의 블렌드가 드디어 하나가 되었습니다.",
+        "category": "스틱커피",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "20T": 7900
+        }
+    },
+    {
+        "name": "스틱커피바닐라라떼",
+        "description": "콜롬비아산 최상급 원료와 마다가스카르산 바닐라빈 특유의 고급스러운 달콤함이 특징입니다. 차별화된 달달함을 원하신다면? 비니스트 바닐라라떼는 머금을수록 그 달콤함이 깊어집니다.",
+        "category": "스틱커피",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "20T": 8900
+        }
+    },
+    {
+        "name": "스틱커피토피넛라떼",
+        "description": "토피 카라멜과 코코아의 달콤한 풍미와 아몬드의 고소함까지 한가득! 이디야 대표인기메뉴 토피넛라떼의 스틱커피 구현. 더 이상의 자세한 설명은 생략합니다.",
+        "category": "스틱커피",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "20T": 9600
+        }
+    },
+    {
+        "name": "아샷추 피치",
+        "description": "달콤한 복숭아 아이스티와 쌉싸름한 커피가 어우러져 이색적인 맛을 즐길 수 있는 꿀조합 음료입니다.",
+        "category": "MD",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "10T": 3900
+        }
+    },
+    {
+        "name": "아샷추 샤인머스캣",
+        "description": "상큼한 샤인머스캣 아이스티와 쌉싸름한 커피가 어우러져 이색적인 맛을 즐길 수 있는 꿀조합 음료입니다.",
+        "category": "MD",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "10T": 3900
+        }
+    },
+    {
+        "name": "(홀빈)이디야 디카페인",
+        "description": "워터프로세스 공법으로 안전하게 카페인을 제거하여 깊고 풍부한 향미와 진한 단맛을 중심으로 긴 여운의 밸련스를 느낄 수 있는 원두",
+        "category": "MD",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "": 16000
+        }
+    },
+    {
+        "name": "(MD)그린루이보스",
+        "description": "그린 루이보스의 깔끔한 맛에 복숭아 한 조각을 베어 문 듯한 잔향의 허브티（10개입）",
+        "category": "MD",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "": 13000
+        }
+    },
+    {
+        "name": "(MD)샤인히비스커스",
+        "description": "사과, 오렌지, 패션후르츠 등의 과일향이 가득 블렌등된 새콤달콤한 허브티（10개입）",
+        "category": "MD",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "": 13000
+        }
+    },
+    {
+        "name": "(MD)스프링캐모마일",
+        "description": "캐모마일과 루이보스의 은은한 달콤함에 상큼한 레몬그라스향이 더해진 허브티（10개입）",
+        "category": "MD",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "": 13000
+        }
+    },
+    {
+        "name": "(MD)퓨어페퍼민트",
+        "description": "막 피어난 싱싱하고 여린 페퍼민트의 청량함이 입 안 가득 느껴지는 허브티（10개입）",
+        "category": "MD",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "": 13000
+        }
+    },
+    {
+        "name": "(MD)프레시그린티",
+        "description": "어린잎 녹차의 부드러운 맛에 싱그러운 시트러스 향이 블렌딩된 그린티（10개입）",
+        "category": "MD",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "": 13000
+        }
+    },
+    {
+        "name": "(MD)피치얼그레이",
+        "description": "깊고 그윽한 홍차와 달콤한 복숭아 향이 조화롭게 어우러진 블랙티（10개입）",
+        "category": "MD",
+        "is_popular": false,
+        "temperature": "none",
+        "has_caffeine": false,
+        "pricing": {
+            "": 13000
+        }
+    }
+]
