@@ -12,14 +12,16 @@ def read_json(path: str | Path) -> List[Dict[str, str | bool | dict[str, int]]]:
     """ JSON 데이터 구조
     [
         {
-            "name": "메뉴 이름",       # str
-            "category": "음료 종류",   # str
-            "description": "설명",    # str
-            "pricing": {             # dict
-                "사이즈0": 가격0,       # int
-                "사이즈1": 가격1        # int
-            },
-            "is_popular": 인기 메뉴 여부 # bool
+            "name": "메뉴 이름",           # str
+            "description": "설명",        # str
+            "category": "음료 종류",       # str
+            "is_popular": 인기 메뉴 여부,   # bool
+            "temperature": "온도",        # str
+            "has_caffeine": 카페인 함유 여부,# bool
+            "pricing": {                 # dict
+                "사이즈0": 가격0,           # int
+                "사이즈1": 가격1            # int
+            }
         }
     ]
     """
@@ -79,8 +81,18 @@ def read_chroma(persist_directory: str | Path, embedding: Embeddings) -> Chroma:
     Returns:
         chroma: 읽어온 Chroma 벡터스토어 객체.
     """
-    embedding = OpenAIEmbeddings() if embedding is None else embedding
     return Chroma(persist_directory=persist_directory, embedding_function=embedding)
+
+def parse_document(document: Document) -> dict:
+    metadata = document.metadata
+    if "pricing" in metadata:
+        metadata["pricing"] = json.loads(metadata["pricing"])
+    metadata["description"] = document.page_content
+    return metadata
+
+def parse_documents(documents: List[Document]) -> List[dict]:
+    return [parse_document(document) for document in documents]
+
 
 if __name__ == "__main__":
     import os
@@ -102,13 +114,22 @@ if __name__ == "__main__":
     from dotenv import load_dotenv    
     load_dotenv(override=True)
     embedding = OpenAIEmbeddings()
-
+    chroma_path = os.path.join(os.path.dirname(__file__), "chroma")
+    
     # Chroma DB 생성
-    chroma = create_chroma(documents, embedding=embedding, persist_directory="./chroma")
-    print("Chroma DB 생성 완료!")
+    # chroma = create_chroma(documents, embedding=embedding, persist_directory=chroma_path)
+    # print("Chroma DB 생성 완료!")
     print()
 
     # Chroma DB 읽기
-    chroma = read_chroma("./chroma")
+    chroma = read_chroma(chroma_path, embedding)
     print("Chroma DB 읽기 완료!")
-    print(chroma)
+    
+    # 검색
+    query = "시원한 커피"
+    results = chroma.similarity_search(query, k=4, filter={"is_popular": True})
+    
+    from pprint import pprint
+    pprint(parse_documents(results))
+    print("검색 완료!")
+    
