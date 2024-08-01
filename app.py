@@ -59,6 +59,7 @@ def handle_input(input):
         
         # 챗봇 응답 추가
         st.session_state.chat_history[-1]["bot"] = bot_response
+        do_TTS_and_play(bot_response)
         
         # 사용자의 입력을 기반으로 이미지 필터링 (예시로 간단한 키워드 필터링 사용)
         if "category1" in user_input:
@@ -117,7 +118,6 @@ with col1:
         if entry['user']:  # 사용자 메시지가 비어있지 않은 경우에만 표시
             message(entry['user'], is_user=True, key=f"user_{i}")
         message(entry['bot'], key=f"bot_{i}")
-        do_TTS_and_play(entry['bot'])
 
 
 with col2:
