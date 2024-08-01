@@ -35,24 +35,6 @@ def ordering(text: str) -> str:
     return 'ordering'
 
 @tool
-def calculate_price(text: str) -> str:
-    """메뉴명과 메뉴 개수를 뽑아와서 정의된 가격을 참고하여, 가격을 출력"""
-    total_price = 0
-    meta = ast.literal_eval(extract_meta(text))
-    print(meta)
-    for i in range(len(meta)):
-        print(meta[i])
-        menu = meta[i]['name']
-        n = meta[i]['num']
-        if menu == '아메리카노':
-            price = 3500
-        elif menu == '아이스카페라떼':
-            price = 5000
-        total_price += price * n
- 
-    return f"총 합쳐서 {total_price}원입니다."
-
-@tool
 def qna(input: str) -> str:
     """카페와 관련된 문의 사항을 응답하는 LLM 함수"""
     messages = [
@@ -69,7 +51,7 @@ def extract_meta(text: str) -> list:
     return llm.invoke(messages).content
 
  
-tools = [recommend_popular_menu, recommend_menu, ordering, qna, calculate_price]
+tools = [recommend_popular_menu, recommend_menu, ordering, qna]
 
 
 tool_names = ", ".join([tool.name for tool in tools])
