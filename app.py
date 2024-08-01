@@ -1,5 +1,5 @@
 import streamlit as st
-from langchain_openai import OpenAI
+from langchain_openai import ChatOpenAI
 import os
 from dotenv import load_dotenv
 from stt_tts.whisper import whisper_transcribe_from_file
@@ -13,7 +13,7 @@ from streamlit_chat import message
 load_dotenv(override=True)
 
 # OpenAI API 키 설정
-llm = OpenAI()
+llm = ChatOpenAI(model_name=os.getenv("MODEL_NAME", "gpt-4o-mini"))
 
 # 챗봇 응답 생성 함수
 
@@ -25,7 +25,7 @@ def chatbot_response(user_input, chat_history):
 
     messages.append({"role": "user", "content": user_input})
 
-    response = llm.invoke(user_input)
+    response = llm.invoke(user_input).content
 
     return response
 
