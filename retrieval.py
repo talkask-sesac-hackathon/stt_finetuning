@@ -13,7 +13,7 @@ from data.vectordb_manager import read_chroma
 def document_retrieval(
         query: str,
         vector_store: Chroma | VectorStore,
-        k: int = 1
+        k: int = 4
     ) -> Document:
     document = vector_store.similarity_search(query, k=k)[0]
     return document
@@ -21,7 +21,7 @@ def document_retrieval(
 def document_retrieval_with_score(
         query: str,
         vector_store: Chroma | VectorStore,
-        k: int = 1
+        k: int = 4
     ) -> Tuple[Document, float]:
     document, score = vector_store.similarity_search_with_score(query, k=k)[0]
     return document, score
