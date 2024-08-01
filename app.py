@@ -3,7 +3,7 @@ from langchain_openai import OpenAI
 import os
 from dotenv import load_dotenv
 from stt_tts.whisper import whisper_transcribe_from_file
-from stt_tts.tts import do_TTS_and_play
+from stt_tts.tts import run_tts_in_thread
 import wave
 import io
 from st_audiorec import st_audiorec
@@ -59,7 +59,7 @@ def handle_input(input):
         
         # 챗봇 응답 추가
         st.session_state.chat_history[-1]["bot"] = bot_response
-        do_TTS_and_play(bot_response)
+        run_tts_in_thread(bot_response)
         
         # 사용자의 입력을 기반으로 이미지 필터링 (예시로 간단한 키워드 필터링 사용)
         if "category1" in user_input:
