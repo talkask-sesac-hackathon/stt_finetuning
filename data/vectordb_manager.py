@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 from typing import List, Dict
 import json
@@ -7,6 +8,11 @@ from langchain.schema.document import Document
 from langchain_chroma import Chroma
 from langchain_core.embeddings.embeddings import Embeddings
 
+# Embedding 설정
+from dotenv import load_dotenv    
+load_dotenv(override=True)
+embedding = OpenAIEmbeddings()
+chroma_path = os.path.join(os.path.dirname(__file__), "chroma")
 
 def read_json(path: str | Path) -> List[Dict[str, str | bool | dict[str, int]]]:
     """ JSON 데이터 구조
@@ -93,6 +99,8 @@ def parse_document(document: Document) -> dict:
 def parse_documents(documents: List[Document]) -> List[dict]:
     return [parse_document(document) for document in documents]
 
+def get_names(documents: List[Document]) -> List[str]:
+    return [document.metadata["name"] for document in documents]
 
 if __name__ == "__main__":
     import os
@@ -110,11 +118,6 @@ if __name__ == "__main__":
     assert type(documents[0].metadata["is_popular"]) == bool, "인기 메뉴 여부는 bool이여야 합니다."
     print("데이터 형식 테스트 통과!")
 
-    # Embedding 설정
-    from dotenv import load_dotenv    
-    load_dotenv(override=True)
-    embedding = OpenAIEmbeddings()
-    chroma_path = os.path.join(os.path.dirname(__file__), "chroma")
     
     # Chroma DB 생성
     # chroma = create_chroma(documents, embedding=embedding, persist_directory=chroma_path)
