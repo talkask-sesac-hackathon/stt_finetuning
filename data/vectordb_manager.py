@@ -50,7 +50,7 @@ def make_documents(items: List[Dict]) -> List[Document]:
 
 def create_chroma(
         documents: List[Document],
-        embeddings: Embeddings,
+        embedding: Embeddings,
         persist_directory: str | Path
         ) -> Chroma:
     """
@@ -58,28 +58,29 @@ def create_chroma(
 
     Args:
         documents (list): LangChain Document 객체 리스트.
-        embeddings: 임베딩 객체 (OpenAIEmbeddings).
+        embedding: 임베딩 객체 (OpenAIEmbeddings).
         persist_path (str): Chroma DB를 저장할 디렉토리 경로.
 
     Returns:
         chroma: 생성된 Chroma 벡터스토어 객체.
     """
-    embeddings = OpenAIEmbeddings() if embeddings is None else embeddings
-    chroma = Chroma.from_documents(documents=documents, embedding=embeddings, persist_directory=persist_directory)
+    embedding = OpenAIEmbeddings() if embedding is None else embedding
+    chroma = Chroma.from_documents(documents=documents, embedding=embedding, persist_directory=persist_directory)
     chroma.add_documents(documents)
     return chroma
 
-def read_chroma(persist_directory: str | Path) -> Chroma:
+def read_chroma(persist_directory: str | Path, embedding: Embeddings) -> Chroma:
     """
     주어진 디렉토리 경로에서 Chroma DB를 읽어옵니다.
 
     Args:
         persist_path (str): Chroma DB가 저장된 디렉토리 경로.
-
+        embedding: 임베딩 객체 (OpenAIEmbeddings).
     Returns:
         chroma: 읽어온 Chroma 벡터스토어 객체.
     """
-    return Chroma(persist_directory=persist_directory)
+    embedding = OpenAIEmbeddings() if embedding is None else embedding
+    return Chroma(persist_directory=persist_directory, embedding_function=embedding)
 
 if __name__ == "__main__":
     import os
@@ -100,10 +101,10 @@ if __name__ == "__main__":
     # Embedding 설정
     from dotenv import load_dotenv    
     load_dotenv(override=True)
-    embeddings = OpenAIEmbeddings()
+    embedding = OpenAIEmbeddings()
 
     # Chroma DB 생성
-    chroma = create_chroma(documents, embeddings=embeddings, persist_directory="./chroma")
+    chroma = create_chroma(documents, embedding=embedding, persist_directory="./chroma")
     print("Chroma DB 생성 완료!")
     print()
 
